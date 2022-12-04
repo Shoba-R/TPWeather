@@ -17,6 +17,10 @@ h1{
   text-align: center;
 }
 .input-group{
-  width: 40%;
+  width: 50%;
   margin-top: 40px;
+}
+.card{
+  max-width: 50%;
+ 
 }

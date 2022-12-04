@@ -1,7 +1,10 @@
 import React from "react"
 import './App.css'
 import { Navbar } from "./components/Navbar/Navbar"
-import {Form} from "./components/Form/Form"
+// import {Form} from "./components/Form/Form"
+import {Weather} from "./components/WeatherPanel/Weather"
+import {Spinner} from "./components/Spinner/Spinner"
+
 
 function App() {
 
@@ -11,7 +14,8 @@ function App() {
     <div className="App">
 
       <Navbar/>
-      <Form/>
+      <Weather/>
+      
         
     </div>
     </>

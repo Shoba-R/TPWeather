@@ -1,0 +1,12 @@
+.btn{
+    background-color:rgb(173, 173, 213);
+    border:1px solid rgb(56, 54, 54)
+}
+.btn:hover{
+    background-color: rgb(56, 54, 54);
+    color:white;
+}
+.form-control{
+    box-shadow:  3px; ;
+    color:rgb(56, 54, 54);
+}
