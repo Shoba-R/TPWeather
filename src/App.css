@@ -1,6 +1,6 @@
 
 body{
-  background-image:url(./assets/sunnyday.jpg);
+  background-image:url(https://images.pexels.com/photos/366283/tianjin-twilight-city-scenery-366283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   background-size:100%;
   background-repeat:no-repeat;
   background-attachment: fixed;
@@ -15,12 +15,34 @@ h1{
 }
 .App{
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  
 }
 .input-group{
-  width: 50%;
+  width: 65%;
   margin-top: 40px;
 }
 .card{
-  max-width: 50%;
+  max-width: 65%;
  
+}
+.card-title{
+  position: absolute;
+  padding:20px;
+}
+.card-date{
+  position: absolute;
+  padding-left:20px;
+  margin-top: 60px;
+}
+.card-temp{
+  position: absolute;
+  padding-left:20px;
+  margin-top: 230px;
+  font-size: 50px;
+}
+.card-desc{
+  position: absolute;
+  padding-left:20px;
+  margin-top: 290px;
 }
