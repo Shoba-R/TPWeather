@@ -1,6 +1,6 @@
 .img-fluid{
     height: 400px;
-    width: 240px;
+    width: 350px;
 }
 
 .card{
@@ -8,9 +8,8 @@
     border:none;
     background-color: rgb(85, 83, 83);
 
-    
-    
 }
+ 
 .col-md-8::after{
     content:"";
     opacity:0.2;
@@ -19,5 +18,30 @@
 .card:hover{
     filter: sepia(60%);
     transition-duration: 0.8s;
+  
+}
+
+@media(max-width:765){
+    .img-fluid{
+        margin-top: 5px;
+    }
+}
+
+@media(max-width:490){
+    .row{
+        margin-top: 5px;
+    }
+  
+}
+@media(max-width:460){
+    .card-body{
+        padding-bottom:10px;
+    }
+  
+}
+@media(max-width:440){
+    .card-body{
+        margin-top:50px;
+    }
   
 }
