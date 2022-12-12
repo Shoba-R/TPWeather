@@ -1,18 +1,17 @@
 
 body{
   background-image:url(https://images.pexels.com/photos/366283/tianjin-twilight-city-scenery-366283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-  background-size:100%;
+  background-size:cover;
   background-repeat:no-repeat;
   background-attachment: fixed;
   background-position: 70%;
   margin: 0 auto;
   padding:0%;
+  background-image: linear-gradient(rgba0,0,0,0.2 );
  
 }
-h1{
-  display:flex;
-  justify-content: center;
-}
+
+
 .App{
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -45,4 +44,7 @@ h1{
   position: absolute;
   padding-left:20px;
   margin-top: 290px;
+}
+.card-body{
+  height: 170px;
 }

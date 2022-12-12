@@ -11,7 +11,8 @@ const Form = ({newLocation}) => {
    const onSubmit = (e)=>{
       e.preventDefault();
       console.log({city});
-      if(city==="" || !city)return;
+      if(city==="" || !city)
+      return
 
       newLocation(city);
    }
@@ -20,7 +21,7 @@ const Form = ({newLocation}) => {
            <form onSubmit={onSubmit}>
              <div className="input-group mb-2 mx-auto">
                <input type="text" className="form-control"
-                placeholder="Ciudad" onChange={(e)=>setCity(e.target.value)}/>
+                placeholder="Nombre de la ciudad..." onChange={(e)=>setCity(e.target.value)}/>
                <button className="btn  input-group-text" type="submit">Buscar</button>
              </div>
           </form> 

@@ -4,7 +4,7 @@ import "./Navbar.css"
 const Navbar = () => {
     return(
         <div className='container-navbar'>
-            <h3 className='titulo-navbar'></h3>
+            <h1 className='titulo-navbar'>El clima hoy:</h1>
         </div>
     )
 }

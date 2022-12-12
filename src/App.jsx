@@ -1,9 +1,10 @@
 import React from "react"
 import './App.css'
 import { Navbar } from "./components/Navbar/Navbar"
-// import {Form} from "./components/Form/Form"
-import {Weather} from "./components/WeatherPanel/Weather"
-import {Spinner} from "./components/Spinner/Spinner"
+import {Weather} from "./components/Weather/Weather"
+
+
+
 
 
 function App() {
@@ -12,11 +13,9 @@ function App() {
   return (
     <>
     <div className="App">
-
       <Navbar/>
       <Weather/>
       
-        
     </div>
     </>
   )
